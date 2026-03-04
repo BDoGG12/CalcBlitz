@@ -37,6 +37,8 @@ struct QuestionView: View {
                     .padding()
                     
                     TextField("Answer", text: $userInput)
+                        .textFieldStyle(.roundedBorder)
+                        .keyboardType(.numberPad)
                         
                     
                 }
