@@ -14,13 +14,16 @@ struct QuestionView: View {
     @State private var vm = QuestionViewModel()
     
     // Question Number variable
-    @State private var indexNum: Int = 1
+    @State private var indexNum: Int = 0
     
     // Prompt variable
     @State private var prompt = "1 + 1"
     
     // User's input
     @State private var userInput: String = ""
+    
+    // Game is done
+    @State private var isDone: Bool = false
     
     
     var body: some View {
@@ -29,7 +32,7 @@ struct QuestionView: View {
                 VStack {
                     
                     HStack {
-                        Text("\(indexNum))")
+                        Text("\(vm.questionModel.questions[indexNum].id))")
                             .font(.largeTitle)
                         Text("\(vm.questionModel.questions[indexNum].prompt)")
                             .font(.largeTitle)
@@ -74,10 +77,11 @@ struct QuestionView: View {
     
     func nextQuestion() {
         // Change the question number
-        if indexNum < vm.questionModel.questions.count - 1 {
+        if indexNum < vm.questionModel.questions.count {
             self.indexNum += 1
             
             prompt = vm.questionModel.questions[indexNum].prompt
+            isDone = indexNum == vm.questionModel.questions.count
         }
     }
 }
