@@ -28,6 +28,15 @@ struct QuestionView: View {
     
     var body: some View {
         ZStack {
+            LinearGradient(colors: [
+                .blue.opacity(0.75),
+                .green.opacity(0.4),
+                .pink.opacity(0.9)
+            ],
+                           startPoint: .top,
+                           endPoint: .bottom
+            )
+            .ignoresSafeArea()
             VStack {
                 VStack {
                     
@@ -37,12 +46,15 @@ struct QuestionView: View {
                         Text("\(vm.questionModel.questions[indexNum].prompt)")
                             .font(.largeTitle)
                     }
+                    .font(.title)
+                    .bold()
                     .padding()
                     
                     TextField("Answer", text: $userInput)
                         .textFieldStyle(.roundedBorder)
+                        .frame(width: 150)
                         .keyboardType(.numberPad)
-                        
+                    
                     
                 }
                 
@@ -52,7 +64,8 @@ struct QuestionView: View {
                     self.nextQuestion()
                 }
                 .font(.title)
-                .buttonBorderShape(.automatic)
+                .bold()
+                .buttonBorderShape(.roundedRectangle)
                 
             }
         }
