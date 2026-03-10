@@ -15,8 +15,8 @@ struct ScoreView: View {
     var body: some View {
         ZStack {
             LinearGradient(colors: [
-                .blue.opacity(0.9),
-                .purple.opacity(0.85)
+                .green.opacity(0.9),
+                .blue.opacity(0.5)
             ], startPoint: .top, endPoint: .bottom)
             .ignoresSafeArea()
             VStack(spacing: 24) {
