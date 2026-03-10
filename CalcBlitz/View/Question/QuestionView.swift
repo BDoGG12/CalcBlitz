@@ -14,7 +14,7 @@ struct QuestionView: View {
     @State private var vm = QuestionViewModel()
     
     // Question Number variable
-    @State private var indexNum: Int = 1
+    @State private var indexNum: Int = 0
     
     // Prompt variable
     @State private var prompt = "1 + 1"
@@ -22,24 +22,39 @@ struct QuestionView: View {
     // User's input
     @State private var userInput: String = ""
     
+    // Game is done
+    @State private var isDone: Bool = false
+    
     
     var body: some View {
         ZStack {
+            LinearGradient(colors: [
+                .blue.opacity(0.75),
+                .green.opacity(0.4),
+                .pink.opacity(0.9)
+            ],
+                           startPoint: .top,
+                           endPoint: .bottom
+            )
+            .ignoresSafeArea()
             VStack {
                 VStack {
                     
                     HStack {
-                        Text("\(indexNum))")
+                        Text("\(vm.questionModel.questions[indexNum].id))")
                             .font(.largeTitle)
                         Text("\(vm.questionModel.questions[indexNum].prompt)")
                             .font(.largeTitle)
                     }
+                    .font(.title)
+                    .bold()
                     .padding()
                     
                     TextField("Answer", text: $userInput)
                         .textFieldStyle(.roundedBorder)
+                        .frame(width: 150)
                         .keyboardType(.numberPad)
-                        
+                    
                     
                 }
                 
@@ -49,7 +64,8 @@ struct QuestionView: View {
                     self.nextQuestion()
                 }
                 .font(.title)
-                .buttonBorderShape(.automatic)
+                .bold()
+                .buttonBorderShape(.roundedRectangle)
                 
             }
         }
@@ -74,10 +90,11 @@ struct QuestionView: View {
     
     func nextQuestion() {
         // Change the question number
-        if indexNum < vm.questionModel.questions.count - 1 {
+        if indexNum < vm.questionModel.questions.count {
             self.indexNum += 1
             
             prompt = vm.questionModel.questions[indexNum].prompt
+            isDone = indexNum == vm.questionModel.questions.count
         }
     }
 }
