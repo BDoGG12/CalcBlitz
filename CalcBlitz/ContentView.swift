@@ -13,9 +13,12 @@ struct ContentView: View {
     @Query private var items: [Item]
 
     var body: some View {
-        VStack {
-            QuestionView(user: User(score: 0))
+        NavigationStack {
+            VStack {
+                CategoryView()
+            }
         }
+        
     }
 
     private func addItem() {

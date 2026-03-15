@@ -5,10 +5,12 @@
 //  Created by Ben Do on 3/2/26.
 //
 
+import SwiftUI
 
-enum Category: String, CaseIterable {
-    case Addition = "addition"
-    case Subtraction = "subtraction"
-    case Division = "division"
-    case Multiplication = "multiplication"
+struct Category: Identifiable {
+    let id: UUID = UUID()
+    let title: String
+    let subtitle: String
+    let icon: String
+    let color: Color
 }
