@@ -1,0 +1,206 @@
+{
+  "category": "division",
+  "count": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "division",
+      "operands": [
+        20,
+        2
+      ],
+      "prompt": "20 \u00f7 2",
+      "answer": 10
+    },
+    {
+      "id": 2,
+      "type": "division",
+      "operands": [
+        90,
+        10
+      ],
+      "prompt": "90 \u00f7 10",
+      "answer": 9
+    },
+    {
+      "id": 3,
+      "type": "division",
+      "operands": [
+        64,
+        8
+      ],
+      "prompt": "64 \u00f7 8",
+      "answer": 8
+    },
+    {
+      "id": 4,
+      "type": "division",
+      "operands": [
+        18,
+        3
+      ],
+      "prompt": "18 \u00f7 3",
+      "answer": 6
+    },
+    {
+      "id": 5,
+      "type": "division",
+      "operands": [
+        8,
+        2
+      ],
+      "prompt": "8 \u00f7 2",
+      "answer": 4
+    },
+    {
+      "id": 6,
+      "type": "division",
+      "operands": [
+        15,
+        3
+      ],
+      "prompt": "15 \u00f7 3",
+      "answer": 5
+    },
+    {
+      "id": 7,
+      "type": "division",
+      "operands": [
+        10,
+        10
+      ],
+      "prompt": "10 \u00f7 10",
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "type": "division",
+      "operands": [
+        35,
+        5
+      ],
+      "prompt": "35 \u00f7 5",
+      "answer": 7
+    },
+    {
+      "id": 9,
+      "type": "division",
+      "operands": [
+        75,
+        5
+      ],
+      "prompt": "75 \u00f7 5",
+      "answer": 15
+    },
+    {
+      "id": 10,
+      "type": "division",
+      "operands": [
+        48,
+        8
+      ],
+      "prompt": "48 \u00f7 8",
+      "answer": 6
+    },
+    {
+      "id": 11,
+      "type": "division",
+      "operands": [
+        30,
+        6
+      ],
+      "prompt": "30 \u00f7 6",
+      "answer": 5
+    },
+    {
+      "id": 12,
+      "type": "division",
+      "operands": [
+        75,
+        5
+      ],
+      "prompt": "75 \u00f7 5",
+      "answer": 15
+    },
+    {
+      "id": 13,
+      "type": "division",
+      "operands": [
+        80,
+        10
+      ],
+      "prompt": "80 \u00f7 10",
+      "answer": 8
+    },
+    {
+      "id": 14,
+      "type": "division",
+      "operands": [
+        60,
+        4
+      ],
+      "prompt": "60 \u00f7 4",
+      "answer": 15
+    },
+    {
+      "id": 15,
+      "type": "division",
+      "operands": [
+        49,
+        7
+      ],
+      "prompt": "49 \u00f7 7",
+      "answer": 7
+    },
+    {
+      "id": 16,
+      "type": "division",
+      "operands": [
+        39,
+        3
+      ],
+      "prompt": "39 \u00f7 3",
+      "answer": 13
+    },
+    {
+      "id": 17,
+      "type": "division",
+      "operands": [
+        204,
+        12
+      ],
+      "prompt": "204 \u00f7 12",
+      "answer": 17
+    },
+    {
+      "id": 18,
+      "type": "division",
+      "operands": [
+        210,
+        14
+      ],
+      "prompt": "210 \u00f7 14",
+      "answer": 15
+    },
+    {
+      "id": 19,
+      "type": "division",
+      "operands": [
+        100,
+        5
+      ],
+      "prompt": "100 \u00f7 5",
+      "answer": 20
+    },
+    {
+      "id": 20,
+      "type": "division",
+      "operands": [
+        221,
+        13
+      ],
+      "prompt": "221 \u00f7 13",
+      "answer": 17
+    }
+  ]
+}
