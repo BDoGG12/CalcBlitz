@@ -1,0 +1,206 @@
+{
+  "category": "multiplication",
+  "count": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiplication",
+      "operands": [
+        5,
+        7
+      ],
+      "prompt": "5 \u00d7 7",
+      "answer": 35
+    },
+    {
+      "id": 2,
+      "type": "multiplication",
+      "operands": [
+        3,
+        6
+      ],
+      "prompt": "3 \u00d7 6",
+      "answer": 18
+    },
+    {
+      "id": 3,
+      "type": "multiplication",
+      "operands": [
+        9,
+        8
+      ],
+      "prompt": "9 \u00d7 8",
+      "answer": 72
+    },
+    {
+      "id": 4,
+      "type": "multiplication",
+      "operands": [
+        6,
+        4
+      ],
+      "prompt": "6 \u00d7 4",
+      "answer": 24
+    },
+    {
+      "id": 5,
+      "type": "multiplication",
+      "operands": [
+        10,
+        8
+      ],
+      "prompt": "10 \u00d7 8",
+      "answer": 80
+    },
+    {
+      "id": 6,
+      "type": "multiplication",
+      "operands": [
+        7,
+        7
+      ],
+      "prompt": "7 \u00d7 7",
+      "answer": 49
+    },
+    {
+      "id": 7,
+      "type": "multiplication",
+      "operands": [
+        8,
+        4
+      ],
+      "prompt": "8 \u00d7 4",
+      "answer": 32
+    },
+    {
+      "id": 8,
+      "type": "multiplication",
+      "operands": [
+        1,
+        9
+      ],
+      "prompt": "1 \u00d7 9",
+      "answer": 9
+    },
+    {
+      "id": 9,
+      "type": "multiplication",
+      "operands": [
+        9,
+        11
+      ],
+      "prompt": "9 \u00d7 11",
+      "answer": 99
+    },
+    {
+      "id": 10,
+      "type": "multiplication",
+      "operands": [
+        5,
+        11
+      ],
+      "prompt": "5 \u00d7 11",
+      "answer": 55
+    },
+    {
+      "id": 11,
+      "type": "multiplication",
+      "operands": [
+        14,
+        12
+      ],
+      "prompt": "14 \u00d7 12",
+      "answer": 168
+    },
+    {
+      "id": 12,
+      "type": "multiplication",
+      "operands": [
+        8,
+        6
+      ],
+      "prompt": "8 \u00d7 6",
+      "answer": 48
+    },
+    {
+      "id": 13,
+      "type": "multiplication",
+      "operands": [
+        8,
+        8
+      ],
+      "prompt": "8 \u00d7 8",
+      "answer": 64
+    },
+    {
+      "id": 14,
+      "type": "multiplication",
+      "operands": [
+        10,
+        11
+      ],
+      "prompt": "10 \u00d7 11",
+      "answer": 110
+    },
+    {
+      "id": 15,
+      "type": "multiplication",
+      "operands": [
+        15,
+        13
+      ],
+      "prompt": "15 \u00d7 13",
+      "answer": 195
+    },
+    {
+      "id": 16,
+      "type": "multiplication",
+      "operands": [
+        10,
+        6
+      ],
+      "prompt": "10 \u00d7 6",
+      "answer": 60
+    },
+    {
+      "id": 17,
+      "type": "multiplication",
+      "operands": [
+        26,
+        9
+      ],
+      "prompt": "26 \u00d7 9",
+      "answer": 234
+    },
+    {
+      "id": 18,
+      "type": "multiplication",
+      "operands": [
+        33,
+        5
+      ],
+      "prompt": "33 \u00d7 5",
+      "answer": 165
+    },
+    {
+      "id": 19,
+      "type": "multiplication",
+      "operands": [
+        45,
+        8
+      ],
+      "prompt": "45 \u00d7 8",
+      "answer": 360
+    },
+    {
+      "id": 20,
+      "type": "multiplication",
+      "operands": [
+        25,
+        3
+      ],
+      "prompt": "25 \u00d7 3",
+      "answer": 75
+    }
+  ]
+}

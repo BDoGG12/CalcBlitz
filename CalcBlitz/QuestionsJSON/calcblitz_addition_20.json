@@ -1,0 +1,210 @@
+{
+  "category": "addition",
+  "count": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "addition",
+      "operands": [
+        20,
+        3
+      ],
+      "prompt": "20 + 3",
+      "answer": 23
+    },
+    {
+      "id": 2,
+      "type": "addition",
+      "operands": [
+        0,
+        8
+      ],
+      "prompt": "0 + 8",
+      "answer": 8
+    },
+    {
+      "id": 3,
+      "type": "addition",
+      "operands": [
+        7,
+        7
+      ],
+      "prompt": "7 + 7",
+      "answer": 14
+    },
+    {
+      "id": 4,
+      "type": "addition",
+      "operands": [
+        4,
+        3
+      ],
+      "prompt": "4 + 3",
+      "answer": 7
+    },
+    {
+      "id": 5,
+      "type": "addition",
+      "operands": [
+        17,
+        2
+      ],
+      "prompt": "17 + 2",
+      "answer": 19
+    },
+    {
+      "id": 6,
+      "type": "addition",
+      "operands": [
+        18,
+        13
+      ],
+      "prompt": "18 + 13",
+      "answer": 31
+    },
+    {
+      "id": 7,
+      "type": "addition",
+      "operands": [
+        1,
+        0
+      ],
+      "prompt": "1 + 0",
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "type": "addition",
+      "operands": [
+        2,
+        6
+      ],
+      "prompt": "2 + 6",
+      "answer": 8
+    },
+    {
+      "id": 9,
+      "type": "addition",
+      "operands": [
+        49,
+        84
+      ],
+      "prompt": "49 + 84",
+      "answer": 133
+    },
+    {
+      "id": 10,
+      "type": "addition",
+      "operands": [
+        97,
+        23
+      ],
+      "prompt": "97 + 23",
+      "answer": 120
+    },
+    {
+      "id": 11,
+      "type": "addition",
+      "operands": [
+        91,
+        45
+      ],
+      "prompt": "91 + 45",
+      "answer": 136
+    },
+    {
+      "id": 12,
+      "type": "addition",
+      "operands": [
+        89,
+        73
+      ],
+      "prompt": "89 + 73",
+      "answer": 162
+    },
+    {
+      "id": 13,
+      "type": "addition",
+      "operands": [
+        48,
+        77
+      ],
+      "prompt": "48 + 77",
+      "answer": 125
+    },
+    {
+      "id": 14,
+      "type": "addition",
+      "operands": [
+        95,
+        55
+      ],
+      "prompt": "95 + 55",
+      "answer": 150
+    },
+    {
+      "id": 15,
+      "type": "addition",
+      "operands": [
+        20,
+        40
+      ],
+      "prompt": "20 + 40",
+      "answer": 60
+    },
+    {
+      "id": 16,
+      "type": "addition",
+      "operands": [
+        74,
+        63
+      ],
+      "prompt": "74 + 63",
+      "answer": 137
+    },
+    {
+      "id": 17,
+      "type": "addition",
+      "operands": [
+        242,
+        179,
+        37
+      ],
+      "prompt": "242 + 179 + 37",
+      "answer": 458
+    },
+    {
+      "id": 18,
+      "type": "addition",
+      "operands": [
+        490,
+        272,
+        23
+      ],
+      "prompt": "490 + 272 + 23",
+      "answer": 785
+    },
+    {
+      "id": 19,
+      "type": "addition",
+      "operands": [
+        147,
+        294,
+        22
+      ],
+      "prompt": "147 + 294 + 22",
+      "answer": 463
+    },
+    {
+      "id": 20,
+      "type": "addition",
+      "operands": [
+        283,
+        276,
+        87
+      ],
+      "prompt": "283 + 276 + 87",
+      "answer": 646
+    }
+  ]
+}
