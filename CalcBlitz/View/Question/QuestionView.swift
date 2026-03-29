@@ -11,6 +11,7 @@ import SwiftData
 struct QuestionView: View {
     @Environment(\.modelContext) private var context: ModelContext
     @Bindable var user: User
+    var category: String
     @State private var vm = QuestionViewModel()
     
     // Question Number variable
@@ -69,6 +70,9 @@ struct QuestionView: View {
                 
             }
         }
+        .onAppear {
+            vm.fetchQuestion(category: category)
+        }
         
         
     }
@@ -100,5 +104,5 @@ struct QuestionView: View {
 }
 
 #Preview {
-    QuestionView(user: User(score: 0))
+    QuestionView(user: User(score: 0), category: "addition")
 }
