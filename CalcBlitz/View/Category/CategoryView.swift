@@ -21,7 +21,7 @@ struct CategoryView: View {
             Section(header: Text("Select a category").font(.headline).fontWeight(.bold)) {
                 List(categories) { category in
                     NavigationLink(category.title) {
-                        QuestionView(user: User(score: 0))
+                        QuestionView(user: User(score: 0), category: category.title.lowercased())
                     }
                     .font(.title)
                     .fontWeight(.bold)
